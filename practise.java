@@ -1,11 +1,11 @@
 public class practise {
     public static void main (String [] args){
-        int marks = -49;
-        if (marks >= 0){
-            System.out.println("Positive");
+        double temp = 103.5;
+        if (temp <= 100){
+            System.out.println("Low");
         }
         else{
-            System.out.println("Negative");
+            System.out.println("High");
         }
     }
 }
