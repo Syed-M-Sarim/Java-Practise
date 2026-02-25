@@ -1,7 +1,11 @@
 public class practise {
     public static void main (String [] args){
-        int marks = 49;
-        String reportCard = (marks >= 50) ? "Pass" : "Fail";
-        System.out.println(reportCard);
+        int marks = -49;
+        if (marks >= 0){
+            System.out.println("Positive");
+        }
+        else{
+            System.out.println("Negative");
+        }
     }
 }
