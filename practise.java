@@ -4,8 +4,10 @@ public class practise {
       Scanner sc = new Scanner(System.in);
         int range = sc.nextInt();
         int i = 1;
+        int sum= 0;
         while(i < range){
-            System.out.println(i + " ");
+            System.out.println(sum);
+            sum+=i;
             i++;
         }
     }
