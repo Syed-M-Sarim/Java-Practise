@@ -6,8 +6,8 @@ public class practise {
         int range = sc.nextInt();
       for (int i=1; i<=range; i++){
         if (i == 10){
-            System.out.println(i +" "+"Break point");
-            break;
+            System.out.println("Break point");
+            continue;
         }
         System.out.println(i);
       }
