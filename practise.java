@@ -3,12 +3,8 @@ public class practise {
     public static void main (String [] args){
       Scanner sc = new Scanner(System.in);
         int range = sc.nextInt();
-        int i = 1;
-        int sum= 0;
-        while(i < range){
-            System.out.println(sum);
-            sum+=i;
-            i++;
+        for (int i=range; i>=1; i--){
+            System.out.println(i);
         }
     }
 }
