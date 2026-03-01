@@ -5,7 +5,7 @@ public class practise {
         System.out.println("Enter range to stop at: ");
         int range = sc.nextInt();
       for (int i=1; i<=range; i++){
-        if (i == 10){
+        if (range%i ==0){
             System.out.println("Break point");
             continue;
         }
