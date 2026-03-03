@@ -2,13 +2,17 @@ import java.util.*;
 
 public class practise {
 
-    public static int helloWorld(int a, int b) {
-        int sum = a + b;
-        return sum;
+    public static void helloWorld(String name) {
+        System.out.println("Welcome! " + name);
       }
 
+    public static int square(int number){
+        return number*number;
+    }
+
     public static void main(String[] args) {
-        int show = helloWorld(10,10);
-        System.out.print("Sum is: " + show);
+        helloWorld("Sarim");
+        int result = square(10);
+        System.out.println("Square is: " + result);
     }
 }
